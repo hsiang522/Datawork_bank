@@ -3,8 +3,8 @@ Change CSV to JSON file and then upload to elasticsearch
 
 以下為欄位對照表，左側為原始檔，右側為輸出檔：
 
-鄉鎮市區 : urban_district /n
-交易標的 : transaction_sign
+鄉鎮市區 : urban_district  
+交易標的 : transaction_sign  
 土地區段位置建物區段門牌 : position
 土地移轉總面積平方公尺 : area
 都市土地使用分區 : district
