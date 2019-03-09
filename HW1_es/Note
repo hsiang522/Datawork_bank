@@ -1,0 +1,27 @@
+open pyspark:  
+pyspark --jars elasticsearch-hadoop-6.6.1.jar
+
+upload the data from terminal:   
+curl -XPUT 'localhost:9200/get-together/group/1?pretty' -d  
+'{ "name": "Elasticsearch", "organizer": "Lee" }' -H 'Content-Type: application/json'
+
+check node:  
+curl -XGET 'http://localhost:9200/_cluster/health?pretty'
+
+check index:  
+curl 'localhost:9200/_cat/shards?v'
+
+check the state and open kibana:  
+http://localhost:9200
+http://localhost:5601/status
+
+format for spark to es:
+>>> f5.take(1)
+[('123', '{"doc_id":"123","city":"taipei”}’)]
+
+mapping:
+curl -H "Content-Type: application/json" -XPOST 'localhost:9200/index1510/_mapping/type1111' -d '{
+"type1111" :{
+"properties":{
+"test":{
+"type":"short"}}}}'
