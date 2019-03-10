@@ -27,19 +27,19 @@ def main():
 	#隨機分切成兩組
 	rd_random=f_all.randomSplit([0.5,0.5])
 	
-	#將時間依倒序排列並轉換成yyyy-mm-dd，接著將檔案格式轉換成規定的time_slots格式，最後依序將檔案依序取名並存成json檔
+	#開始將兩組依時間順序轉成json，將時間依倒序排列並轉換成yyyy-mm-dd，接著將檔案格式轉換成規定的time_slots格式，最後依序將檔案依序取名並存成json檔
 	for i in range(2):
 		rd_rt = rd_random[i].sortBy(lambda a: a[0][7], ascending=False)
-		rd_rt2 = rd_rt.map(lambda x: [x[0][:7],str(int(x[0][7][:3] or 0)+1911)+"-"+x[0][7][3:5]+"-"+x[0][7][5:],x[0][8:],x[1]])
-		rd_rt_all=rd_rt2.map(lambda g:{'city': g[3], 'time_slots': [{'urban_district': g[0][0],\
+		rd_rt2 = rd_rt.map(lambda x: [x[0][:7],str(int(x[0][7][:3])+1911)+"-"+x[0][7][3:5]+"-"+x[0][7][5:],x[0][8:],x[1]])
+		rd_rt_all=rd_rt2.map(lambda g:{'city': g[3], 'time_slots': [{'date': g[1],'event':[{'urban_district': g[0][0],\
 		    'transaction_sign': g[0][1],'position': g[0][2], 'area': float(g[0][3]or 0), 'district': g[0][4],\
-			'land_use_district': g[0][5],'land_use': g[0][6],'date': g[1],'transaction_pen': g[2][0],\
+			'land_use_district': g[0][5],'land_use': g[0][6],'transaction_pen': g[2][0],\
 			'shifting_level': g[2][1],'total_floor': g[2][2],'building_state': g[2][3],'main_use': g[2][4],\
 			'building_materials': g[2][5],'complete_date': g[2][6],'shifting_area': float(g[2][7]or 0),\
 			'room': int(g[2][8]or 0),'hall': int(g[2][9]or 0),'health': int(g[2][10]or 0),\
 			'compartmented': g[2][11],'organization': g[2][12],'total_price': int(g[2][13]or 0),\
 			'unit_price': int(g[2][14]or 0),'berth': g[2][15],'berth_total_area': float(g[2][16]or 0),\
-			'berth_total_price': int(g[2][17]or 0),'note': g[2][18],'serial_number': g[2][19]}]})
+			'berth_total_price': int(g[2][17]or 0),'note': g[2][18],'serial_number': g[2][19]}]}]})
 			
 		data_str = rd_rt_all.map(lambda x: json.dumps(x,ensure_ascii=False))
 		name = "result-part" + str(i+1) + ".json"
