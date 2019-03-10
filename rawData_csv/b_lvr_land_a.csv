@@ -1,4 +1,4 @@
-﻿鄉鎮市區,交易標的,土地區段位置建物區段門牌,土地移轉總面積平方公尺,都市土地使用分區,非都市土地使用分區,非都市土地使用編定,交易年月日,交易筆棟數,移轉層次,總樓層數,建物型態,主要用途,主要建材,建築完成年月,建物移轉總面積平方公尺,建物現況格局-房,建物現況格局-廳,建物現況格局-衛,建物現況格局-隔間,有無管理組織,總價元,單價元平方公尺,車位類別,車位移轉總面積平方公尺,車位總價元,備註,編號
+鄉鎮市區,交易標的,土地區段位置建物區段門牌,土地移轉總面積平方公尺,都市土地使用分區,非都市土地使用分區,非都市土地使用編定,交易年月日,交易筆棟數,移轉層次,總樓層數,建物型態,主要用途,主要建材,建築完成年月,建物移轉總面積平方公尺,建物現況格局-房,建物現況格局-廳,建物現況格局-衛,建物現況格局-隔間,有無管理組織,總價元,單價元平方公尺,車位類別,車位移轉總面積平方公尺,車位總價元,備註,編號
 The villages and towns urban district,transaction sign,land sector position building sector house number plate,land shifting total area square meter,the use zoning or compiles and checks,the non-metropolis land use district,non-metropolis land use,transaction year month and day,transaction pen number,shifting level,total floor number,building state,main use,main building materials,construction to complete the years,building shifting total area,Building present situation pattern - room,building present situation pattern - hall,building present situation pattern - health,building present situation pattern - compartmented,Whether there is manages the organization,total price Yuan,the unit price a Yuan square meter,the berth category,berth shifting total area square meter,the berth total price Yuan,the note,serial number
 西區,房地(土地+建物),臺中市西區向上路一段289巷1~30號,6.11,住,,,1071125,土地1建物1車位0,七層,八層,套房(1房1廳1衛),住家用,鋼筋混凝土造,0821124,38.22,1,1,1,有,有,1850000,48404,,0.0,0,,RPPNMLNLKINFFAB37CA
 西區,土地,土庫段1~30地號,289.33,其他,,,1071206,土地1建物0車位0,,,其他,,,,0.0,0,0,0,有,無,36571200,126400,,0.0,0,公共設施保留地之交易。,RPRNMLNLKINFFAB57CA
@@ -444,7 +444,7 @@ The villages and towns urban district,transaction sign,land sector position buil
 西屯區,房地(土地+建物),臺中市西屯區西苑路211~240號,136.42,住,,,1071115,土地2建物1車位0,全,四層,透天厝,見其他登記事項,鋼筋混凝土造,1040618,292.11,5,3,6,有,無,55000000,188285,,0.0,0,,RPVPMLRKJHOFFCB58CA
 豐原區,土地,豐原段721~750地號,280.0,商,,,1071001,土地2建物0車位0,,,其他,,,,0.0,0,0,0,有,無,23682000,84579,,0.0,0,,RPUNMLPLKINFFDB38CA
 西屯區,房地(土地+建物)+車位,臺中市西屯區環中路三段61~90號,19.3,商,,,1071121,土地1建物3車位1,十層,三十八層,住宅大樓(11層含以上有電梯),見其他登記事項,鋼骨鋼筋混凝土造,1040702,277.64,4,2,3,有,有,19460000,72804,坡道平面,26.82,1200000,,RPOPMLSKJHOFFCB97CA
-神岡區,土地,竹圍段721~750地號,166.66,,特定農業區,農牧用地,930112,土地1建物0車位0,,,其他,,,,0.0,0,0,0,有,無,450000,2700,,0.0,0,,RPQNMLOJJHOFFDB57CA
+神岡區,土地,竹圍段721~750地號,166.66,,特定農業區,農牧用地,0930112,土地1建物0車位0,,,其他,,,,0.0,0,0,0,有,無,450000,2700,,0.0,0,,RPQNMLOJJHOFFDB57CA
 后里區,房地(土地+建物)+車位,臺中市后里區三豐路三段1081~1110號,31.26,住,,,1071126,土地3建物1車位1,十一層,十二層,住宅大樓(11層含以上有電梯),見其他登記事項,鋼筋混凝土造,1060426,156.76999999999998,2,2,2,有,有,8160000,59952,坡道平面,34.84,850000,,RPTNMLLKJHOFFDB67CA
 神岡區,土地,光啟段841~870地號,173.25,農,,,1071207,土地3建物0車位0,,,其他,,,,0.0,0,0,0,有,無,3000000,17316,,0.0,0,,RPUOMLOKJHOFFDB18CA
 豐原區,房地(土地+建物),臺中市豐原區源豐路151~180號,51.0,商,,,1071126,土地1建物1車位0,全,四層,透天厝,住商用,鋼筋混凝土造,0670425,135.0,5,2,3,有,無,8818993,65326,,0.0,0,,RPVNMLKKJHOFFDB77CA
