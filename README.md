@@ -1,7 +1,7 @@
 # Datawork_bank
 Change CSV to JSON file and then upload to elasticsearch
 
-HW1是將raw data上傳至elasticsearch，HW2是將raw data轉換成兩個json檔
+HW1是將raw data上傳至elasticsearch，HW2是將raw data轉換成兩個json檔。
 
 以下為欄位對照表，左側為raw data欄位名稱，右側為輸出檔之欄位名稱：
 
