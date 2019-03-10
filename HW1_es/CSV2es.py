@@ -26,7 +26,7 @@ def main():
 	f_all=f_new[0].union(f_new[1]).union(f_new[2]).union(f_new[3]).union(f_new[4])
 	
 	#將時間轉換成yyyy-mm-dd格式
-	rd_rt = f_all.map(lambda x: [x[0][:7],str(int(x[0][7][:3] or 0)+1911)+"-"+x[0][7][3:5]+"-"+x[0][7][5:],x[0][8:],x[1]])
+	rd_rt = f_all.map(lambda x: [x[0][:7],str(int(x[0][7][:3])+1911)+"-"+x[0][7][3:5]+"-"+x[0][7][5:],x[0][8:],x[1]])
 	rd_rtz = rd_rt.zipWithIndex()
 	#將格式轉換成可上傳es的格式，並利用int(x or 0)避免空值錯誤，接著上傳
 	rd_rt_all = rd_rtz.map(lambda g:(str(g[1]),json.dumps({'doc_id':str(g[1]),'city':g[0][3],'date':g[0][1],\
