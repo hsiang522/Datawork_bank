@@ -6,3 +6,9 @@ date這一欄的格式已轉成yyyy-mm-dd
 
 2.another_edition：  
 有值的話轉換成yyyy-mm-dd，而空值定義為""。
+
+以下為欄位對照表，左側為raw data欄位名稱，右側為輸出檔之欄位名稱：
+
+鄉鎮市區 : district
+交易年月日 : date
+建物型態 : building_state
