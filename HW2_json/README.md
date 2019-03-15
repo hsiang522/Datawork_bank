@@ -1,14 +1,10 @@
 date這一欄的格式已轉成yyyy-mm-dd
 
-而complete_date因為這一欄有較多的空值，所以我後來程式做了兩個版本，可供參考：  
 1.原始版：  
 保留原本的string格式。
 
 2.another_edition：  
 有值的話轉換成yyyy-mm-dd，而空值定義為""。
 
-以下為欄位對照表，左側為raw data欄位名稱，右側為輸出檔之欄位名稱：
-
-鄉鎮市區 : district  
-交易年月日 : date  
-建物型態 : building_state  
+3.modify_v1:
+收到3/13號的反饋所進行的修改
