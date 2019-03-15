@@ -36,7 +36,7 @@ def main():
     for i in range(5):
         f_new[i] = f_new[i].reduceByKey(
             lambda x, y: x+y)  # reduceByKey加入城市當key
-        f_new[i] = f_new[i].map(lambda x: {'city': x[0], 'time_slot': x[1]})
+        f_new[i] = f_new[i].map(lambda x: {'city': x[0], 'time_slots': x[1]})
 
     f_all = f_new[0].union(f_new[1]).union(
         f_new[2]).union(f_new[3]).union(f_new[4])
